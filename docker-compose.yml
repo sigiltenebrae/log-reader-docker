@@ -4,4 +4,7 @@ services:
     container-name: log-api
     build: .
     ports:
-      "8081:8081"
+      - "8081:8081"
+    volumes:
+      - /cfg:/cfg
+      
