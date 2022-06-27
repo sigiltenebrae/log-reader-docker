@@ -10,4 +10,4 @@ RUN npm install
 
 EXPOSE 8081/tcp
 
-CMD ng serve --host 0.0.0.0
+CMD node read-log.js
